@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAAAD3721C93069C00FE8454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAD3711C93069C00FE8454 /* AppDelegate.swift */; };
+		FAAAD3741C93069C00FE8454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAAD3731C93069C00FE8454 /* Assets.xcassets */; };
+		FAAAD3771C93069C00FE8454 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAAD3751C93069C00FE8454 /* MainMenu.xib */; };
+		FAAAD3821C93069C00FE8454 /* Solar_StatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAD3811C93069C00FE8454 /* Solar_StatusTests.swift */; };
+		FAAAD38D1C93069C00FE8454 /* Solar_StatusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAD38C1C93069C00FE8454 /* Solar_StatusUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAAAD37E1C93069C00FE8454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAAAD3661C93069B00FE8454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAAAD36D1C93069C00FE8454;
+			remoteInfo = "Solar Status";
+		};
+		FAAAD3891C93069C00FE8454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAAAD3661C93069B00FE8454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAAAD36D1C93069C00FE8454;
+			remoteInfo = "Solar Status";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAAAD36E1C93069C00FE8454 /* Solar Status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar Status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAAD3711C93069C00FE8454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAAAD3731C93069C00FE8454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAAAD3761C93069C00FE8454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FAAAD3781C93069C00FE8454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAAAD37D1C93069C00FE8454 /* Solar StatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solar StatusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAAD3811C93069C00FE8454 /* Solar_StatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar_StatusTests.swift; sourceTree = "<group>"; };
+		FAAAD3831C93069C00FE8454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAAAD3881C93069C00FE8454 /* Solar StatusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solar StatusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAAD38C1C93069C00FE8454 /* Solar_StatusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar_StatusUITests.swift; sourceTree = "<group>"; };
+		FAAAD38E1C93069C00FE8454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAAAD36B1C93069C00FE8454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAAD37A1C93069C00FE8454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAAD3851C93069C00FE8454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAAAD3651C93069B00FE8454 = {
+			isa = PBXGroup;
+			children = (
+				FAAAD3701C93069C00FE8454 /* Solar Status */,
+				FAAAD3801C93069C00FE8454 /* Solar StatusTests */,
+				FAAAD38B1C93069C00FE8454 /* Solar StatusUITests */,
+				FAAAD36F1C93069C00FE8454 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAAAD36F1C93069C00FE8454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAD36E1C93069C00FE8454 /* Solar Status.app */,
+				FAAAD37D1C93069C00FE8454 /* Solar StatusTests.xctest */,
+				FAAAD3881C93069C00FE8454 /* Solar StatusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAAAD3701C93069C00FE8454 /* Solar Status */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAD3711C93069C00FE8454 /* AppDelegate.swift */,
+				FAAAD3731C93069C00FE8454 /* Assets.xcassets */,
+				FAAAD3751C93069C00FE8454 /* MainMenu.xib */,
+				FAAAD3781C93069C00FE8454 /* Info.plist */,
+			);
+			path = "Solar Status";
+			sourceTree = "<group>";
+		};
+		FAAAD3801C93069C00FE8454 /* Solar StatusTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAD3811C93069C00FE8454 /* Solar_StatusTests.swift */,
+				FAAAD3831C93069C00FE8454 /* Info.plist */,
+			);
+			path = "Solar StatusTests";
+			sourceTree = "<group>";
+		};
+		FAAAD38B1C93069C00FE8454 /* Solar StatusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAD38C1C93069C00FE8454 /* Solar_StatusUITests.swift */,
+				FAAAD38E1C93069C00FE8454 /* Info.plist */,
+			);
+			path = "Solar StatusUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAAAD36D1C93069C00FE8454 /* Solar Status */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAAD3911C93069C00FE8454 /* Build configuration list for PBXNativeTarget "Solar Status" */;
+			buildPhases = (
+				FAAAD36A1C93069C00FE8454 /* Sources */,
+				FAAAD36B1C93069C00FE8454 /* Frameworks */,
+				FAAAD36C1C93069C00FE8454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solar Status";
+			productName = "Solar Status";
+			productReference = FAAAD36E1C93069C00FE8454 /* Solar Status.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAAAD37C1C93069C00FE8454 /* Solar StatusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAAD3941C93069C00FE8454 /* Build configuration list for PBXNativeTarget "Solar StatusTests" */;
+			buildPhases = (
+				FAAAD3791C93069C00FE8454 /* Sources */,
+				FAAAD37A1C93069C00FE8454 /* Frameworks */,
+				FAAAD37B1C93069C00FE8454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAAAD37F1C93069C00FE8454 /* PBXTargetDependency */,
+			);
+			name = "Solar StatusTests";
+			productName = "Solar StatusTests";
+			productReference = FAAAD37D1C93069C00FE8454 /* Solar StatusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAAAD3871C93069C00FE8454 /* Solar StatusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAAD3971C93069C00FE8454 /* Build configuration list for PBXNativeTarget "Solar StatusUITests" */;
+			buildPhases = (
+				FAAAD3841C93069C00FE8454 /* Sources */,
+				FAAAD3851C93069C00FE8454 /* Frameworks */,
+				FAAAD3861C93069C00FE8454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAAAD38A1C93069C00FE8454 /* PBXTargetDependency */,
+			);
+			name = "Solar StatusUITests";
+			productName = "Solar StatusUITests";
+			productReference = FAAAD3881C93069C00FE8454 /* Solar StatusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAAAD3661C93069B00FE8454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alex Behrens";
+				TargetAttributes = {
+					FAAAD36D1C93069C00FE8454 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FAAAD37C1C93069C00FE8454 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FAAAD36D1C93069C00FE8454;
+					};
+					FAAAD3871C93069C00FE8454 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FAAAD36D1C93069C00FE8454;
+					};
+				};
+			};
+			buildConfigurationList = FAAAD3691C93069B00FE8454 /* Build configuration list for PBXProject "Solar Status" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAAAD3651C93069B00FE8454;
+			productRefGroup = FAAAD36F1C93069C00FE8454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAAAD36D1C93069C00FE8454 /* Solar Status */,
+				FAAAD37C1C93069C00FE8454 /* Solar StatusTests */,
+				FAAAD3871C93069C00FE8454 /* Solar StatusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAAAD36C1C93069C00FE8454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAAD3741C93069C00FE8454 /* Assets.xcassets in Resources */,
+				FAAAD3771C93069C00FE8454 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAAD37B1C93069C00FE8454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAAD3861C93069C00FE8454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAAAD36A1C93069C00FE8454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAAD3721C93069C00FE8454 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAAD3791C93069C00FE8454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAAD3821C93069C00FE8454 /* Solar_StatusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAAD3841C93069C00FE8454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAAD38D1C93069C00FE8454 /* Solar_StatusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAAAD37F1C93069C00FE8454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAAAD36D1C93069C00FE8454 /* Solar Status */;
+			targetProxy = FAAAD37E1C93069C00FE8454 /* PBXContainerItemProxy */;
+		};
+		FAAAD38A1C93069C00FE8454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAAAD36D1C93069C00FE8454 /* Solar Status */;
+			targetProxy = FAAAD3891C93069C00FE8454 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAAAD3751C93069C00FE8454 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAAAD3761C93069C00FE8454 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAAAD38F1C93069C00FE8454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAAAD3901C93069C00FE8454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAAAD3921C93069C00FE8454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Solar Status/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Solar-Status";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAAAD3931C93069C00FE8454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Solar Status/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Solar-Status";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAAAD3951C93069C00FE8454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Solar StatusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Solar-StatusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar Status.app/Contents/MacOS/Solar Status";
+			};
+			name = Debug;
+		};
+		FAAAD3961C93069C00FE8454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Solar StatusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Solar-StatusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar Status.app/Contents/MacOS/Solar Status";
+			};
+			name = Release;
+		};
+		FAAAD3981C93069C00FE8454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Solar StatusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Solar-StatusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Solar Status";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FAAAD3991C93069C00FE8454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Solar StatusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Solar-StatusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Solar Status";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAAAD3691C93069B00FE8454 /* Build configuration list for PBXProject "Solar Status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAAD38F1C93069C00FE8454 /* Debug */,
+				FAAAD3901C93069C00FE8454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAAD3911C93069C00FE8454 /* Build configuration list for PBXNativeTarget "Solar Status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAAD3921C93069C00FE8454 /* Debug */,
+				FAAAD3931C93069C00FE8454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAAAD3941C93069C00FE8454 /* Build configuration list for PBXNativeTarget "Solar StatusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAAD3951C93069C00FE8454 /* Debug */,
+				FAAAD3961C93069C00FE8454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAAAD3971C93069C00FE8454 /* Build configuration list for PBXNativeTarget "Solar StatusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAAD3981C93069C00FE8454 /* Debug */,
+				FAAAD3991C93069C00FE8454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAAAD3661C93069B00FE8454 /* Project object */;
+}
