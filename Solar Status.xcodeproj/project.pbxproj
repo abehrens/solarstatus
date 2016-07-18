@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA3974DC1C93AA1300401E3B /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3974D91C93A9E100401E3B /* SwiftyJSON.framework */; };
+		FA3974DD1C93AA1300401E3B /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA3974D91C93A9E100401E3B /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA3974E21C94AFC900401E3B /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3974E01C94AFC900401E3B /* PreferencesWindow.swift */; };
+		FA3974E31C94AFC900401E3B /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3974E11C94AFC900401E3B /* PreferencesWindow.xib */; };
 		FAAAD3721C93069C00FE8454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAD3711C93069C00FE8454 /* AppDelegate.swift */; };
 		FAAAD3741C93069C00FE8454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAAD3731C93069C00FE8454 /* Assets.xcassets */; };
 		FAAAD3771C93069C00FE8454 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAAD3751C93069C00FE8454 /* MainMenu.xib */; };
 		FAAAD3821C93069C00FE8454 /* Solar_StatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAD3811C93069C00FE8454 /* Solar_StatusTests.swift */; };
 		FAAAD38D1C93069C00FE8454 /* Solar_StatusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAD38C1C93069C00FE8454 /* Solar_StatusUITests.swift */; };
+		FAAAD39B1C930C9100FE8454 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAD39A1C930C9100FE8454 /* StatusMenuController.swift */; };
+		FAAAD39D1C931AE100FE8454 /* SolarAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAD39C1C931AE100FE8454 /* SolarAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +37,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FA3974D71C93A9D700401E3B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FA3974DD1C93AA1300401E3B /* SwiftyJSON.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		FA3974D21C93A7AA00401E3B /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/Mac/SwiftyJSON.framework; sourceTree = "<group>"; };
+		FA3974D51C93A9D700401E3B /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/Mac/SwiftyJSON.framework; sourceTree = "<group>"; };
+		FA3974D91C93A9E100401E3B /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/Mac/SwiftyJSON.framework; sourceTree = "<group>"; };
+		FA3974E01C94AFC900401E3B /* PreferencesWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreferencesWindow.swift; path = ../PreferencesWindow.swift; sourceTree = "<group>"; };
+		FA3974E11C94AFC900401E3B /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PreferencesWindow.xib; path = ../PreferencesWindow.xib; sourceTree = "<group>"; };
 		FAAAD36E1C93069C00FE8454 /* Solar Status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar Status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAAD3711C93069C00FE8454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAAAD3731C93069C00FE8454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,6 +68,8 @@
 		FAAAD3881C93069C00FE8454 /* Solar StatusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solar StatusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAAD38C1C93069C00FE8454 /* Solar_StatusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar_StatusUITests.swift; sourceTree = "<group>"; };
 		FAAAD38E1C93069C00FE8454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAAAD39A1C930C9100FE8454 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		FAAAD39C1C931AE100FE8454 /* SolarAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolarAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3974DC1C93AA1300401E3B /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +101,9 @@
 		FAAAD3651C93069B00FE8454 = {
 			isa = PBXGroup;
 			children = (
+				FA3974D91C93A9E100401E3B /* SwiftyJSON.framework */,
+				FA3974D51C93A9D700401E3B /* SwiftyJSON.framework */,
+				FA3974D21C93A7AA00401E3B /* SwiftyJSON.framework */,
 				FAAAD3701C93069C00FE8454 /* Solar Status */,
 				FAAAD3801C93069C00FE8454 /* Solar StatusTests */,
 				FAAAD38B1C93069C00FE8454 /* Solar StatusUITests */,
@@ -93,9 +124,13 @@
 		FAAAD3701C93069C00FE8454 /* Solar Status */ = {
 			isa = PBXGroup;
 			children = (
+				FA3974E01C94AFC900401E3B /* PreferencesWindow.swift */,
+				FA3974E11C94AFC900401E3B /* PreferencesWindow.xib */,
 				FAAAD3711C93069C00FE8454 /* AppDelegate.swift */,
+				FAAAD39A1C930C9100FE8454 /* StatusMenuController.swift */,
 				FAAAD3731C93069C00FE8454 /* Assets.xcassets */,
 				FAAAD3751C93069C00FE8454 /* MainMenu.xib */,
+				FAAAD39C1C931AE100FE8454 /* SolarAPI.swift */,
 				FAAAD3781C93069C00FE8454 /* Info.plist */,
 			);
 			path = "Solar Status";
@@ -129,6 +164,7 @@
 				FAAAD36A1C93069C00FE8454 /* Sources */,
 				FAAAD36B1C93069C00FE8454 /* Frameworks */,
 				FAAAD36C1C93069C00FE8454 /* Resources */,
+				FA3974D71C93A9D700401E3B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAAAD3741C93069C00FE8454 /* Assets.xcassets in Resources */,
+				FA3974E31C94AFC900401E3B /* PreferencesWindow.xib in Resources */,
 				FAAAD3771C93069C00FE8454 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3974E21C94AFC900401E3B /* PreferencesWindow.swift in Sources */,
+				FAAAD39B1C930C9100FE8454 /* StatusMenuController.swift in Sources */,
+				FAAAD39D1C931AE100FE8454 /* SolarAPI.swift in Sources */,
 				FAAAD3721C93069C00FE8454 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +421,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = "Solar Status/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Solar-Status";
@@ -393,6 +437,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = "Solar Status/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Solar-Status";
@@ -471,6 +519,7 @@
 				FAAAD3931C93069C00FE8454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAAAD3941C93069C00FE8454 /* Build configuration list for PBXNativeTarget "Solar StatusTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +528,7 @@
 				FAAAD3961C93069C00FE8454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAAAD3971C93069C00FE8454 /* Build configuration list for PBXNativeTarget "Solar StatusUITests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +537,7 @@
 				FAAAD3991C93069C00FE8454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
